@@ -52,5 +52,21 @@ p{
     font-size: 14px;
     line-height: 28px;
     color: #7D7987;
-    
+
+}
+
+button{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    font-size: 14px;
+    line-height: 28px;
+}
+
+footer a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
 }
