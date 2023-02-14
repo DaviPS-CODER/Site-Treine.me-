@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
 }
 
 .page{
@@ -27,6 +29,9 @@ ul li a{
     text-decoration: none;
 }
 
+ul li a{
+    opacity: 0.5;
+}
 ul li a:hover{
     font-weight: bold;
 }
@@ -95,3 +100,8 @@ footer a {
     text-decoration: none;
 }
 
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
